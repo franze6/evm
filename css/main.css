@@ -40,9 +40,11 @@ footer .nav-link:hover {
 	color: #d7e3f3;
 }
 
-.custom-border {
-	border-left: 3px solid #5b7db6 !important;
-	border-right: 3px solid #5b7db6 !important;
+@media (min-width: 992px) {	
+	.custom-border {
+		border-left: 3px solid #5b7db6 !important;
+		border-right: 3px solid #5b7db6 !important;
+	}
 }
 
 .navbar-toggler-icon {
@@ -52,3 +54,9 @@ footer .nav-link:hover {
 .navbar-toggler {
 	border-color: rgba(255,255,255,.5);
 }
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
