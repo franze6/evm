@@ -60,5 +60,22 @@ footer .nav-link:hover {
 	margin-left: 0;
 }
 
+.pub_spec {
+	font-size: 9px;
+}
+
+.spie_img {
+	width: 170px;
+}
+
+.pub_img {
+	width: 130px;
+	padding: 5px;
+}
+
+.cat_list {
+	font-size: 16px;
+	
+}
 
 
