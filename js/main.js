@@ -10,6 +10,11 @@ $(document).ready(function(){
 		load_page($(this).attr('data-page'));
 	});
 
+	$('.project-link').click(function(e) {
+		e.preventDefault();
+		load_page($(this).attr('data-page'));
+	});
+
 	$(document).on("click", '[data-toggle="lightbox"]', function(event) {
   		event.preventDefault();
   		$(this).ekkoLightbox();
